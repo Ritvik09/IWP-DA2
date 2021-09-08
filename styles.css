@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Background.png);
+    color: #E6E6FF;
+    text-align: center;
+}
+
+nav {
+	background-color: #0B0C10;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav div a {
+	color: #45A29E;
+    margin: 0 10px;
+	font-size: 20px;
+}
+
+nav div a:hover {
+    color: #66FCF1;
+}
+
+h1 {
+    font-size: 34px;
+    color: #66FCF1;
+    background-color: #0B0C10;
+    margin-left: 50px;
+    margin-right: 250px;
+    font-family: Garamond;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+iframe {
+    margin: 20px 0;
+}
+
+.about, .overview, .me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box {
+    padding: 50px;
+    border: 5px solid #45A29E;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0 0 8px 8px #ADD8E6;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 10px 20px;
+    width: 240px;
+    height: 50px;
+    background-color: #66FCF1;
+}
+
+button:hover {
+    background-color: #1F2833;
+    color: white;
+    cursor: pointer;
+}

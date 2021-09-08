@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="form">
+        <div class="mainform">
+            <h1> Register </h1>
+            <form action="login.html" name="myForm" onSubmit="return validateForm()">
+                <h3>Name<span>*</span></h3>
+                <input type="text" placeholder="Enter Your Name" name="name">
+                <h3>E-mail<span>*</span></h3>
+                <input type="text" placeholder="Enter Your E-mail" name="email">
+                <h3>Mobile Number<span>*</span></h3>
+                <input type="text" placeholder="Enter Your Mobile Number" name="phone">
+                <h3>Age<span>*</span></h3>
+                <input type="number" placeholder="Enter Your Age" name="age">
+                <h3>Password<span>*</span></h3>
+                <input type="password" placeholder="Enter Your Password" name="password">
+                <h3>Re-enter Password<span>*</span></h3>
+                <input type="password" placeholder="Enter Your Password" name="repassword">
+                <h3>What is your highest degree of qualification?</h3>
+                <input type="text" list="degree" name="degree" class = "degree" autocomplete = "off">
+                <datalist id="degree">
+                    <option value="High School">High School Diploma</option>
+                    <option value="Bachelor's">Bachelor's Degree</option>
+                    <option value="Master's">Master's Degree</option>
+                    <option value="PhD">Doctor of Philosophy</option>
+                </datalist>
+                <h3>  Please attach your identification</h3>
+                <label for="report">
+                    <input type="file" id="report" name="report">
+                </label><br><br>
+                <button type="submit"><span>Submit</span></button>
+            </form>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
